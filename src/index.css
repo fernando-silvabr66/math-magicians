@@ -14,6 +14,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 10rem;
+  /* width: 25%; */
 }
 
 .p-2 {
@@ -22,14 +23,14 @@ body {
 
 .p-4 {
   background-color: #e0e0e0;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #b6b4b4;
   color: black;
   font-size: 1.5rem;
 }
 
 .btn-operations {
   background-color: #f5913e;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #b6b4b4;
   color: black;
   font-size: 1.5rem;
 }
