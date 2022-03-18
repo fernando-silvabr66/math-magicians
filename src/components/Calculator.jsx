@@ -14,26 +14,31 @@ class Calculator extends Component {
       results: null,
       next: null,
       operation: null,
+      valueToShow: 0,
     };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler(e) {
-    this.setState((state) => calc(state, e.target.textContent));
+    const newValues = calc(this.state, e.target.textContent);
+    this.setState(() => newValues);
+    const { results, next } = newValues;
+    if (next !== null && next !== undefined) {
+      this.setState({ valueToShow: next });
+    } else {
+      this.setState({ valueToShow: (results !== null && results !== undefined) ? results : '0' });
+    }
   }
 
   render() {
-    const { results, next, operation } = this.state;
+    const { valueToShow } = this.state;
     return (
       <div className="calculator">
         <Container>
           <Row className="m-2">
             <Col>
               <div className="w-100 p-2 result">
-                { results == null ? '0' : results }
-                { results }
-                { operation }
-                { next }
+                { valueToShow }
               </div>
             </Col>
           </Row>
