@@ -22,12 +22,14 @@ class Calculator extends Component {
   clickHandler(e) {
     const newValues = calc(this.state, e.target.textContent);
     this.setState(() => newValues);
-    const { results, next } = newValues;
+    const { results, next, operation } = newValues;
     if (next !== null && next !== undefined) {
-      this.setState({ valueToShow: next });
-    } else {
-      this.setState({ valueToShow: (results !== null && results !== undefined) ? results : '0' });
-    }
+      if (operation !== null && operation !== undefined) {
+        const formula = `${results} ${operation} ${next}`;
+        this.setState({ valueToShow: formula });
+      } else this.setState({ valueToShow: next });
+    } else if (next === null && operation !== null) this.setState({ valueToShow: operation });
+    else this.setState({ valueToShow: (results !== null && results !== undefined) ? results : '0' });
   }
 
   render() {
