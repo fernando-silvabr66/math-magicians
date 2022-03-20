@@ -1,13 +1,11 @@
-### MEAL DB
+### MAGIC MAGICIANS
 
-Meal DB - Capstone 2 Project - Microverse
+Magis Magicians Project - Microverse
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-
 > Module 3, Week 1 - Math Magicians Project
 > Intro to React Project for Module 3 on Microverse Program - Week 1
-
 
 # Images & Video
 
@@ -46,7 +44,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **FERNANDO SILVA**
 
-*** Fernando Silva 
+\*\*\* Fernando Silva
+
 - GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
 - Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
 - LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)
