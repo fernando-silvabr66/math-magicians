@@ -1,4 +1,4 @@
-## Copyright 2021, [Fernando Silva & Ntare Guy]
+## Copyright 2022, [Fernando Silva]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Web Page and associated documentation files, to deal in the Web Page without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Web Page, and to permit persons to whom the Web Page is furnished to do so, subject to the following conditions:
 
