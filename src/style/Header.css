@@ -35,6 +35,9 @@ nav {
 .nav-links {
   list-style-type: none;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0;
   gap: 2rem;
 }
 
@@ -42,6 +45,7 @@ nav {
   text-decoration: none;
   color: var(--white-clr);
   transition: 0.4s;
+  align-self: center;
 }
 
 .nav-item:hover,
@@ -50,6 +54,7 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+
   .nav-title {
     padding-top: 1rem;
     font-size: 3rem;

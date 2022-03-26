@@ -11,11 +11,12 @@
   margin: 15px auto;
 }
 
-header {
-  min-height: 10vh;
+main {
+  width: 100%;
+  min-height: 80vh;
+  color: black;
 }
 
-main {
-  width: 100vw;
-  min-height: 80vh;
+main h2 {
+  color: black;
 }

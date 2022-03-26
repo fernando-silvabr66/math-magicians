@@ -1,12 +1,20 @@
 .home-section {
-  margin-top: 5rem;
+  margin-top: 5rem;  
 }
 
 .home-section h2 {
   font-size: 3rem;
+  color: black;
 }
 
 .home-section p {
-  margin: 4rem 0;
+  margin: 3;
   text-align: justify;
+  color: black;
 }
+
+@media screen and (max-width: 600px) {
+  
+    
+}
+
