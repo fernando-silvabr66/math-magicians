@@ -1,6 +1,6 @@
 ### MAGIC MAGICIANS
 
-Magis Magicians Project - Microverse
+Math Magicians Project - Microverse
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -8,11 +8,15 @@ Magis Magicians Project - Microverse
 
 > Intro to React Project for Module 3 on Microverse Program - Week 1
 
-# Images & Video
+# Images, Video & Deploy
 
 ## Images
 
 ![screenshot](./public/app-screenshot.jpg)
+
+## Deploy
+
+https://math-magicians-fs.herokuapp.com/
 
 ## Built With
 
