@@ -1,5 +1,5 @@
 .home-section {
-  margin-top: 5rem;  
+  margin-top: 5rem;
 }
 
 .home-section h2 {
@@ -8,13 +8,13 @@
 }
 
 .home-section p {
-  margin: 3;
+  margin: 0;
   text-align: justify;
   color: black;
 }
 
 @media screen and (max-width: 600px) {
-  
-    
+  .home-section {
+    margin: 0;
+  }
 }
-

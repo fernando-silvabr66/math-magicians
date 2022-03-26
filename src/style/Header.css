@@ -54,7 +54,6 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-
   .nav-title {
     padding-top: 1rem;
     font-size: 3rem;

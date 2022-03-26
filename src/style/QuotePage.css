@@ -10,11 +10,10 @@
   display: block;
   text-align: right;
   margin: 3rem;
-  padding-right: 8rem
+  padding-right: 8rem;
 }
 
 @media screen and (max-width: 500px) {
-  
   .quote-section q {
     display: flex;
     font-size: 2rem;
@@ -23,9 +22,9 @@
 
   .quote-section span {
     display: flex;
-    align-self: right;
+    align-self: flex-end;
     font-size: 2rem;
     margin: 1rem;
-    padding-right: 8rem
-  } 
+    padding-right: 8rem;
+  }
 }
