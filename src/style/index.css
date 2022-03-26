@@ -3,6 +3,19 @@
   padding: 0;
   box-sizing: inherit;
   color: #fff;
+  color: black;
+}
+
+:root {
+  --bg-primary: #3450a1;
+  --bg-secondary: #041955;
+  --white-clr: #fff;
+  --gray-clr: #bbc2d8;
+  --border-clr: #d103fc;
+}
+
+::selection {
+  background-color: var(--border-clr);
 }
 
 html {

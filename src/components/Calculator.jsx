@@ -6,6 +6,7 @@ import {
   Button,
 } from 'react-bootstrap';
 import calc from '../calc-events/calc';
+import '../style/Calculator.css';
 
 function Calculator() {
   const [state, setState] = useState({

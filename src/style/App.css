@@ -10,3 +10,13 @@
   min-height: 400px;
   margin: 15px auto;
 }
+
+main {
+  width: 100%;
+  min-height: 80vh;
+  color: black;
+}
+
+main h2 {
+  color: black;
+}
