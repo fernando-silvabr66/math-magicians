@@ -1,18 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-
-// import Calculator from './components/Calculator';
-
 import './style/App.css';
 import HomePage from './pages/HomePage';
 import CalculatorPage from './pages/CalculatorPage';
 import QuotePage from './pages/QuotePage';
-import FrontPage from './components/FrontPage';
+import Header from './pages/Header';
 
 const App = () => (
   <>
     <header>
-      <Frontpage />
+      <Header />
     </header>
     <main>
       <Routes>

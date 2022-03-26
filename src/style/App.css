@@ -10,3 +10,12 @@
   min-height: 400px;
   margin: 15px auto;
 }
+
+header {
+  min-height: 10vh;
+}
+
+main {
+  width: 100vw;
+  min-height: 80vh;
+}
